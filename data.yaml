@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash', 'vinyl']
+
+roboflow:
+  workspace: apple4ree
+  project: yolov8_image_trash
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/apple4ree/yolov8_image_trash/dataset/3

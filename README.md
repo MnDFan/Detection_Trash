@@ -18,6 +18,8 @@ algorithm should be able to detect the type of object. Our expectation with this
 is we hope to be use in a real project for more action to decrease the pollution in the
 world.
 
+![performance-comparison](https://github.com/user-attachments/assets/ea83a163-29ac-4e30-82eb-c6130d19dfd9)
+
 ## Installation and Usage 
 
 Code on this project
@@ -46,33 +48,31 @@ Yolov11 nano for 100 epochs:
 
 <ins> Global metrics: </ins>
 
-![results](https://github.com/user-attachments/assets/4b250e63-f588-4046-a2d5-c0b9289cd016)
+![results nano](https://github.com/user-attachments/assets/58dd2096-5120-4e55-b637-60dceab70c46)
 
 <ins> Prediction for the validation set: </ins>
 
-![val_batch2_pred](https://github.com/user-attachments/assets/e37eb06d-577b-4a38-9580-434b8c5923c2)
-
-
+![pred nano](https://github.com/user-attachments/assets/1c073294-0c8c-46d1-9533-fe03ffea94d6)
 
 Yolov11 medium for 100 epochs:
 
 <ins> Global metrics: </ins>
 
-![results](https://github.com/user-attachments/assets/b8fd690f-24cc-4726-bd56-64cdf3d7f953)
+![results medium](https://github.com/user-attachments/assets/55da49f3-15f3-464c-8daa-5616ff711bf2)
 
 <ins> Prediction for the validation set: </ins>
 
-![val_batch0_pred](https://github.com/user-attachments/assets/a361b586-cba7-45b7-bf11-aae5053a2159)
+![pred medium](https://github.com/user-attachments/assets/6021e9be-c7a0-4c76-aaa1-0ed53fe94d79)
 
 At first sight, we can think that these two model is the same, but with long term the medium model will be a better use to recognize some object in the picture.
 
 There is some result we test on the medium model:
 
-![7](https://github.com/user-attachments/assets/4e8794c4-ff09-40f2-b60e-913fcdd5f653)
+![7](https://github.com/user-attachments/assets/3c2cd30b-111b-4e4b-aea3-9271f0c15507)
 
 but here we can see some error during the detection phase like he can't really separate object:
 
-![6](https://github.com/user-attachments/assets/c8512910-6951-449f-91c2-6e167c650b40)
+![error](https://github.com/user-attachments/assets/93a869d6-3189-41de-a95a-14409e3c5a0f)
 
 The problem should be the difficulty to have a good dataset every trash that could exist. there is a lot of different object and so to train with.
 
@@ -80,7 +80,7 @@ The problem should be the difficulty to have a good dataset every trash that cou
 
 For the future work, we can for example add more classe to let the programme have more object to detect in a image
 
-![labels](https://github.com/user-attachments/assets/9df23bfd-489d-4664-8695-04be4e068f94)
+![labels](https://github.com/user-attachments/assets/ffc81115-629d-44ba-ab4c-a348d21e4b31)
 
 Use a better GPU and model to not waste some time and to train again and again foor nothing.
 

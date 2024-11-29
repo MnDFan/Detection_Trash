@@ -78,7 +78,21 @@ The problem should be the difficulty to have a good dataset every trash that cou
 
 Future work:
 
+For the future work, we can for example add more classe to let the programme have more object to detect in a image
 
+![labels](https://github.com/user-attachments/assets/9df23bfd-489d-4664-8695-04be4e068f94)
+
+Use a better GPU and model to not waste some time and to train again and again foor nothing.
+
+Issues and Contributions
+
+Reference
+
+  - Ultralytics
+  - YOLO11 Github
+  - Roboflow Website
+  - Pytorch Website
+  - CUDA Website
 
 
 

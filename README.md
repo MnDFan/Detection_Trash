@@ -22,3 +22,5 @@ Performance metrics
 
 *Different YOLO model
 *Result
+Global metrics:
+![results](https://github.com/user-attachments/assets/b8fd690f-24cc-4726-bd56-64cdf3d7f953)

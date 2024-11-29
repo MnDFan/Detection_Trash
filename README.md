@@ -22,9 +22,9 @@ world.
 
 ## Installation and Usage 
 
-Code on this project
-- train.py is use train dataset on parameters
-- detect_custom to launch the code on a image to detect object base on the training of a dataset ( you will see 2 detect_custom, the first one is base on the nano model and the second one is base on the medium model)
+In this project, you will find these following code:
+- train.py is use to train dataset on parameters
+- detect_custom.py to launch the code on a image to detect object base on the training of a dataset ( you will see 2 detect_custom, the first one is base on the nano model and the second one is base on the medium model)
 
 Before starting to train any dataset, you will need to install:
 - Ultralytics
@@ -87,11 +87,12 @@ The problem should be the difficulty to have a good dataset every trash that cou
 
 ## Future work
 
-For the future work, we can for example add more classe to let the programme have more object to detect in a image
+For the future work, we can for example add more classe to let the programme have more object to detect in a image.
+Use a better GPU and model to not waste some time and to train again and again foor nothing.
 
 ![labels](https://github.com/user-attachments/assets/ffc81115-629d-44ba-ab4c-a348d21e4b31)
 
-Use a better GPU and model to not waste some time and to train again and again foor nothing.
+As you can see in the image above, there is a few classes for the millions of trash that exist in the world. Furthermore, we can train with more image like there isn't enough of example for vinyl for example compare to other.
 
 ## Issues and Contributions
 

@@ -69,7 +69,7 @@ For the training on the dataset, we use a RTX Nvidia 3060 Laptop GPU. Firstly we
 
 ![results medium](https://github.com/user-attachments/assets/55da49f3-15f3-464c-8daa-5616ff711bf2)
 
- ins> Prediction for the validation set: </ins>
+ <ins> Prediction for the validation set: </ins>
 
 ![pred medium](https://github.com/user-attachments/assets/6021e9be-c7a0-4c76-aaa1-0ed53fe94d79)
 

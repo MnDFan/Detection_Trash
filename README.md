@@ -4,6 +4,7 @@ The main goal of this project is to explore the fundamentals of autonomous image
 recognition using various algorithms and computer vision models. It also aims to
 develop a sample recognition model by training it with data sourced from Google
 Images or other popular web-based image search engines.
+
 During this project, we will use YOLOv5 (You Only Look Once) which is an algorithm
 capable of detecting objects in real-time by performing detection and classification
 simultaneously. YOLO has been widely evaluated and offers a solid approach to basic
@@ -14,4 +15,10 @@ without requiring an internet connection. The objective is to sort different obj
 plastic bottle, cup of glasses or a sachet for example. First, we need to be able to
 recognize these different objects on the video to be able to sort them. After that, the
 algorithm should be able to detect the type of object. Our expectation with this project
-is we hop
+is we hope to be use in a real project for more action to decrease the pollution in the
+world.
+
+Performance metrics
+
+*Different YOLO model
+*Result

@@ -4,3 +4,4 @@ test: ../dataset/test/images
 
 nc: 7
 names: ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash', 'vinyl']
+

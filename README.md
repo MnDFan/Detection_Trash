@@ -68,7 +68,7 @@ At first sight, we can think that these two model is the same, but with long ter
 
 There is some result we test on the medium model:
 
-![7](https://github.com/user-attachments/assets/3116f82e-5bd3-48e6-bb93-5110dc07258d)
+![7](https://github.com/user-attachments/assets/22f637e2-f905-4b7c-8000-c357840042cf)
 
 but here we can see some error during the detection phase like he can't really separate object:
 

@@ -86,6 +86,8 @@ Use a better GPU and model to not waste some time and to train again and again f
 
 Issues and Contributions
 
+For now, you could use a better dataset and a better YOLO model for example. Don't hesitate to add this project to your repository to add some improvement, i will be more than happy.
+
 Reference
 
   - Ultralytics

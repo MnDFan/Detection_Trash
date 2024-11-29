@@ -1,4 +1,4 @@
-# Project Image Understanding - Detection of material
+# ♻️🗑️ Project Image Understanding - Detection of material
 
 The main goal of this project is to explore the fundamentals of autonomous image
 recognition using various algorithms and computer vision models. It also aims to
@@ -20,7 +20,7 @@ world.
 
 ![performance-comparison](https://github.com/user-attachments/assets/ea83a163-29ac-4e30-82eb-c6130d19dfd9)
 
-## Installation and Usage 
+## 🔩 Installation and Usage 
 
 In this project, you will find these following code:
 - train.py is use to train dataset on parameters
@@ -37,7 +37,7 @@ For this project we hqve use:
 - CUDA 11.8
 
 
-## Performance metrics
+## 📈 Performance metrics
 
 *Different YOLO model
 The original dataset was created by collecting images from online sources such as Google Images and others. Some of these images may be subject to copyright protection. Labeling was performed using Roboflow, and the dataset was split as follows: 97% for the training set, 3% for the validation set, and 1% for the test set. Although the validation set could have been larger, the limited number of images led to prioritizing the accuracy of the training phase.
@@ -53,7 +53,7 @@ The original dataset was created by collecting images from online sources such a
 
 For the training on the dataset, we use a RTX Nvidia 3060 Laptop GPU. Firstly we had use the nano medium that took 1 hour to complete the training for 100 epochs. After that, we try we the same set the medium and it took a really long time : 12 hours to complete the training dataset. However we will see in the next result if it was worth it.
 
-Yolov11 nano for 100 epochs:
+**Yolov11 nano for 100 epochs:**
 
 <ins> Global metrics: </ins>
 
@@ -63,13 +63,13 @@ Yolov11 nano for 100 epochs:
 
 ![pred nano](https://github.com/user-attachments/assets/1c073294-0c8c-46d1-9533-fe03ffea94d6)
 
-Yolov11 medium for 100 epochs:
+**Yolov11 medium for 100 epochs:**
 
-<ins> Global metrics: </ins>
+<ins>Global metrics: </ins>
 
 ![results medium](https://github.com/user-attachments/assets/55da49f3-15f3-464c-8daa-5616ff711bf2)
 
-<ins> Prediction for the validation set: </ins>
+ ins> Prediction for the validation set: </ins>
 
 ![pred medium](https://github.com/user-attachments/assets/6021e9be-c7a0-4c76-aaa1-0ed53fe94d79)
 
@@ -85,7 +85,7 @@ but here we can see some error during the detection phase like he can't really s
 
 The problem should be the difficulty to have a good dataset every trash that could exist. there is a lot of different object and so to train with.
 
-## Future work
+## 🔜 Future work
 
 For the future work, we can for example add more classe to let the programme have more object to detect in a image.
 Use a better GPU and model to not waste some time and to train again and again foor nothing.
@@ -94,11 +94,11 @@ Use a better GPU and model to not waste some time and to train again and again f
 
 As you can see in the image above, there is a few classes for the millions of trash that exist in the world. Furthermore, we can train with more image like there isn't enough of example for vinyl for example compare to other.
 
-## Issues and Contributions
+## 👋 Issues and Contributions
 
 For now, you could use a better dataset and a better YOLO model for example. Don't hesitate to add this project to your repository to add some improvement, i will be more than happy.
 
-## Reference
+## 📙 Reference
 
   - Ultralytics
   - YOLO11 Github

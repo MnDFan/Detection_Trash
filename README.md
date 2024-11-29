@@ -38,8 +38,9 @@ For this project we hqve use:
 Performance metrics
 
 *Different YOLO model
+The original dataset was created by collecting images from online sources such as Google Images and others. Some of these images may be subject to copyright protection. Labeling was performed using Roboflow, and the dataset was split as follows: 97% for the training set, 3% for the validation set, and 1% for the test set. Although the validation set could have been larger, the limited number of images led to prioritizing the accuracy of the training phase.
 
-*Result
+For the training on the dataset, we use a RTX Nvidia 3060 Laptop GPU. Firstly we had use the nano medium that took 1 hour to complete the training for 100 epochs. After that, we try we the same set the medium and it took a really long time : 12 hours to complete the training dataset. However we will see in the next result if it was worth it.
 
 Yolov11 nano for 100 epochs:
 

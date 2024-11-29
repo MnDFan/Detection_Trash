@@ -35,7 +35,7 @@ For this project we hqve use:
 - CUDA 11.8
 
 
-Performance metrics
+## Performance metrics
 
 *Different YOLO model
 The original dataset was created by collecting images from online sources such as Google Images and others. Some of these images may be subject to copyright protection. Labeling was performed using Roboflow, and the dataset was split as follows: 97% for the training set, 3% for the validation set, and 1% for the test set. Although the validation set could have been larger, the limited number of images led to prioritizing the accuracy of the training phase.
@@ -44,11 +44,11 @@ For the training on the dataset, we use a RTX Nvidia 3060 Laptop GPU. Firstly we
 
 Yolov11 nano for 100 epochs:
 
-Global metrics:
+<ins> Global metrics: </ins>
 
 ![results](https://github.com/user-attachments/assets/4b250e63-f588-4046-a2d5-c0b9289cd016)
 
-Prediction for the validation set:
+<ins> Prediction for the validation set: </ins>
 
 ![val_batch2_pred](https://github.com/user-attachments/assets/e37eb06d-577b-4a38-9580-434b8c5923c2)
 
@@ -56,11 +56,11 @@ Prediction for the validation set:
 
 Yolov11 medium for 100 epochs:
 
-Global metrics:
+<ins> Global metrics: </ins>
 
 ![results](https://github.com/user-attachments/assets/b8fd690f-24cc-4726-bd56-64cdf3d7f953)
 
-Prediction for the validation set:
+<ins> Prediction for the validation set: </ins>
 
 ![val_batch0_pred](https://github.com/user-attachments/assets/a361b586-cba7-45b7-bf11-aae5053a2159)
 
@@ -76,7 +76,7 @@ but here we can see some error during the detection phase like he can't really s
 
 The problem should be the difficulty to have a good dataset every trash that could exist. there is a lot of different object and so to train with.
 
-Future work:
+## Future work
 
 For the future work, we can for example add more classe to let the programme have more object to detect in a image
 
@@ -84,11 +84,11 @@ For the future work, we can for example add more classe to let the programme hav
 
 Use a better GPU and model to not waste some time and to train again and again foor nothing.
 
-Issues and Contributions
+## Issues and Contributions
 
 For now, you could use a better dataset and a better YOLO model for example. Don't hesitate to add this project to your repository to add some improvement, i will be more than happy.
 
-Reference
+## Reference
 
   - Ultralytics
   - YOLO11 Github

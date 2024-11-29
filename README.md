@@ -44,5 +44,6 @@ Global metrics:
 
 Prediction for the validation set:
 
-![val_batch2_pred](https://github.com/user-attachments/assets/44a4cc27-4466-4246-b8fe-8f8e0669f2a3)
+![val_batch0_labels](https://github.com/user-attachments/assets/11667c95-854d-4dd0-b199-7747a6c5445a)
+
 

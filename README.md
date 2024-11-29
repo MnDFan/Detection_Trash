@@ -24,6 +24,25 @@ Performance metrics
 
 *Result
 
+Yolov11 nano for 100 epochs:
+
+Global metrics:
+
+![results](https://github.com/user-attachments/assets/4b250e63-f588-4046-a2d5-c0b9289cd016)
+
+Prediction for the validation set:
+
+![val_batch2_pred](https://github.com/user-attachments/assets/e37eb06d-577b-4a38-9580-434b8c5923c2)
+
+
+
+Yolov11 medium for 100 epochs:
+
 Global metrics:
 
 ![results](https://github.com/user-attachments/assets/b8fd690f-24cc-4726-bd56-64cdf3d7f953)
+
+Prediction for the validation set:
+
+![val_batch2_pred](https://github.com/user-attachments/assets/44a4cc27-4466-4246-b8fe-8f8e0669f2a3)
+

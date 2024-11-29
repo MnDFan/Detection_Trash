@@ -1,11 +1,11 @@
-# Detection of material
+# Project Image Understanding - Detection of material
 
 The main goal of this project is to explore the fundamentals of autonomous image
 recognition using various algorithms and computer vision models. It also aims to
 develop a sample recognition model by training it with data sourced from Google
 Images or other popular web-based image search engines.
 
-During this project, we will use YOLOv5 (You Only Look Once) which is an algorithm
+During this project, we will use YOLOv11 (You Only Look Once) which is an algorithm
 capable of detecting objects in real-time by performing detection and classification
 simultaneously. YOLO has been widely evaluated and offers a solid approach to basic
 tasks such as classification, detection, segmentation, and tracking. Initially a concept,
@@ -41,6 +41,15 @@ For this project we hqve use:
 
 *Different YOLO model
 The original dataset was created by collecting images from online sources such as Google Images and others. Some of these images may be subject to copyright protection. Labeling was performed using Roboflow, and the dataset was split as follows: 97% for the training set, 3% for the validation set, and 1% for the test set. Although the validation set could have been larger, the limited number of images led to prioritizing the accuracy of the training phase.
+
+| Model                                                                             | size `<br><sup>`(pixels) | mAP `<sup>`val `<br>`50-95 | Speed `<br><sup>`CPU ONNX `<br>`(ms) | Speed `<br><sup>`T4 TensorRT10 `<br>`(ms) | params `<br><sup>`(M) | FLOPs `<br><sup>`(B) |
+| --------------------------------------------------------------------------------- | -------------------------- | ------------------------------ | ---------------------------------------- | --------------------------------------------- | ----------------------- | ---------------------- |
+| [YOLO11n](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n.pt) | 640                        | 39.5                           | 56.1 ± 0.8                              | 1.5 ± 0.0                                    | 2.6                     | 6.5                    |
+| [YOLO11s](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11s.pt) | 640                        | 47.0                           | 90.0 ± 1.2                              | 2.5 ± 0.0                                    | 9.4                     | 21.5                   |
+| [YOLO11m](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11m.pt) | 640                        | 51.5                           | 183.2 ± 2.0                             | 4.7 ± 0.1                                    | 20.1                    | 68.0                   |
+| [YOLO11l](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11l.pt) | 640                        | 53.4                           | 238.6 ± 1.4                             | 6.2 ± 0.1                                    | 25.3                    | 86.9                   |
+| [YOLO11x](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11x.pt) | 640                        | 54.7                           | 462.8 ± 6.7                             | 11.3 ± 0.2                                   | 56.9                    | 194.9                  |
+
 
 For the training on the dataset, we use a RTX Nvidia 3060 Laptop GPU. Firstly we had use the nano medium that took 1 hour to complete the training for 100 epochs. After that, we try we the same set the medium and it took a really long time : 12 hours to complete the training dataset. However we will see in the next result if it was worth it.
 

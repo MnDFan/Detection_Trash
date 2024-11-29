@@ -18,6 +18,22 @@ algorithm should be able to detect the type of object. Our expectation with this
 is we hope to be use in a real project for more action to decrease the pollution in the
 world.
 
+Installation and Usage 
+
+- train.py is use train dataset on parameters
+- detect_custom to launch the code on a image to detect object base on the training of a dataset
+
+  Before starting to train any dataset, you will need to install:
+  - Ultralytics
+  - CUDA toolkit 
+  - Pytorch 
+
+For this project we hqve use:
+- Ultalytics 
+- Torch 2.5.1+cu118
+- CUDA 11.8
+
+
 Performance metrics
 
 *Different YOLO model
@@ -45,6 +61,22 @@ Global metrics:
 Prediction for the validation set:
 
 ![val_batch0_pred](https://github.com/user-attachments/assets/a361b586-cba7-45b7-bf11-aae5053a2159)
+
+At first sight, we can think that these two model is the same, but with long term the medium model will be a better use to recognize some object in the picture.
+
+There is some result we test on the medium model:
+
+![7](https://github.com/user-attachments/assets/3116f82e-5bd3-48e6-bb93-5110dc07258d)
+
+but here we can see some error during the detection phase like he can't really separate object:
+
+![6](https://github.com/user-attachments/assets/c8512910-6951-449f-91c2-6e167c650b40)
+
+The problem should be the difficulty to have a good dataset every trash that could exist. there is a lot of different object and so to train with.
+
+Future work:
+
+
 
 
 

@@ -20,13 +20,14 @@ world.
 
 Installation and Usage 
 
+Code on this project
 - train.py is use train dataset on parameters
-- detect_custom to launch the code on a image to detect object base on the training of a dataset
+- detect_custom to launch the code on a image to detect object base on the training of a dataset ( you will see 2 detect_custom, the first one is base on the nano model and the second one is base on the medium model)
 
-  Before starting to train any dataset, you will need to install:
-  - Ultralytics
-  - CUDA toolkit 
-  - Pytorch 
+Before starting to train any dataset, you will need to install:
+- Ultralytics
+- CUDA toolkit 
+- Pytorch 
 
 For this project we hqve use:
 - Ultalytics 

@@ -1,4 +1,4 @@
-Detection of material
+#Detection of material
 
 The main goal of this project is to explore the fundamentals of autonomous image
 recognition using various algorithms and computer vision models. It also aims to
